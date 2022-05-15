@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+
+    <p id="unique">Finding HTML Elements by Id</p>
+    <p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const element = document.getElementById("unique");
+
+        document.getElementById("demo").innerHTML =
+            "The text from the unique paragraph is: " + element.innerHTML;
+
+    </script>
+
+</body>
+
+</html>
