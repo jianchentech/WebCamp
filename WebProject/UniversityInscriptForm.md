@@ -3,8 +3,9 @@
 
 You must design a web application allowing you to apply for admission to the 1st
 cycle at UQAM. Your application must provide all the fields of the REQUEST form.
-ADMISSION (4 pages) of this document http://www.regis.uqam.ca/Pdf/formulaires/DA_1.pdf
+ADMISSION (4 pages) of this document http://www.regis.uqam.ca/Pdf/formulaires/DA_1.pdf 
 Here are the validations to perform:
+```
  Identification Section:
 ```
 ◦ Mandatory fields: last name, first name, department permanent code, date of
